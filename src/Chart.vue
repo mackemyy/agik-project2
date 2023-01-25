@@ -70,7 +70,7 @@
 </script>
 
 <template>
-  <div class="mx-[20rem]">
+  <div class="mx-[10rem]">
     <h1 class="text-[2rem] text-center mb-8 font-bold">Weight Tracker</h1>
     <div id="current" class="flex flex-col justify-center items-center w-[200px] h-[200px] text-center bg-white rounded-[999px] mx-auto mt-0 mb-8">
       <span class="block text-[2rem] font-medium mb-2">{{ currentWeight.weight }}</span>
