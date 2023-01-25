@@ -1,11 +1,17 @@
-<script setup>
+<script>
+import ChartVue from './Chart.vue';
 
+
+  export default {
+    name: 'App',
+    components: {
+      ChartVue,
+    }
+  }
 </script>
 
 <template>
-  <h1>Hellow</h1>
+  <main class="p-[1.5rem]">
+    <ChartVue/>
+  </main>
 </template>
-
-<style scoped>
-
-</style>
